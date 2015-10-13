@@ -1,0 +1,126 @@
+@font-face {
+font-family: basictitlefont ; 
+src: url(../police/basictitlefont.ttf);
+}
+
+
+body {
+background-image: url("../image/backgroundimage.png") ;
+}
+
+/* Styles de la navbar */
+.navbar {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 820px;
+height: 100px;
+bottom: 8px;
+font-family: basictitlefont;
+}
+
+.home {
+background-color: #FA6900 ;
+width: 160px ;
+height: 120px;
+display: inline-block ;
+margin-right: 5px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.fonctionnement {
+background-color: #3a3737 ;
+width: 160px ;
+height: 70px;
+display: inline-block;
+margin-right: 5px;
+position: absolute;
+top: 0;
+left: 165px;
+}
+
+.tarifs {
+background-color: #3a3737 ;
+width: 160px ;
+height: 80px;
+display: inline-block;
+margin-right: 5px;
+position: absolute;
+top: 0;
+left: 330px;
+}
+
+.contact {
+background-color: #3a3737 ;
+width: 160px ;
+height: 70px;
+display: inline-block;
+margin-right: 5px;
+position: absolute;
+top: 0;
+left: 495px;
+}
+
+.apropos {
+background-color: #3a3737 ;
+width: 160px ;
+height: 80px;
+display: inline-block;
+position: absolute;
+top: 0;
+left: 660px;
+}
+
+/* Texte des cases navbar */
+.home_txt {
+position: absolute;
+font-size: 3em ;
+text-align: center;
+top: -30px;
+left: 30px ;
+}
+
+.fonctionnement_txt {
+position: absolute;
+font-size: 1.4em ;
+text-align: center;
+top: 3px;
+left: 7px ;
+color: white;
+}
+
+.tarifs_txt {
+position: absolute;
+font-size: 3em ;
+text-align: center;
+top: -33px;
+left: 18px ;
+color: white;
+}
+
+.Contact_txt {
+position: absolute;
+font-size: 2.5em ;
+text-align: center;
+top: -22px;
+left: 16px ;
+color: white;
+}
+
+.apropos_txt {
+position: absolute;
+font-size: 3em ;
+text-align: center;
+top: -30px;
+left: 30px ;
+color: white;
+}
+
+/* Image case navbar */
+.home_img {
+position: absolute;
+top: 30px ;
+left: 16px ;
+}
