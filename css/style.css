@@ -3,124 +3,74 @@ font-family: basictitlefont ;
 src: url("../rsc/fonts/basictitlefont.ttf");
 }
 
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	text-decoration: none;
+}
 
 body {
-background-image: url("../rsc/img/background.png") ;
+	background-image: url("../rsc/img/background.png") ;
 }
 
-/* Styles de la navbar */
+/* Navbar */
 .navbar {
-position: relative;
-margin-left: auto;
-margin-right: auto;
-width: 820px;
-height: 100px;
-bottom: 8px;
-font-family: basictitlefont;
+	margin: 0 auto;
+	width: 80%;
+
+	font-family: basictitlefont;
+	text-align: center;
 }
 
-.home {
-background-color: #FA6900 ;
-width: 160px ;
-height: 120px;
-display: inline-block ;
-margin-right: 5px;
-position: absolute;
-top: 0;
-left: 0;
+.navbar ul {
+	display: table;
+	width: 100%;
 }
 
-.fonctionnement {
-background-color: #3a3737 ;
-width: 160px ;
-height: 70px;
-display: inline-block;
-margin-right: 5px;
-position: absolute;
-top: 0;
-left: 165px;
+.navbar ul li {
+	display: table-cell;
+	width: 20%;
+	padding: 0 2px;
 }
 
-.tarifs {
-background-color: #3a3737 ;
-width: 160px ;
-height: 80px;
-display: inline-block;
-margin-right: 5px;
-position: absolute;
-top: 0;
-left: 330px;
+.navbar ul li a {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	background-color: #3a3737 ;
+	color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
 }
 
-.contact {
-background-color: #3a3737 ;
-width: 160px ;
-height: 70px;
-display: inline-block;
-margin-right: 5px;
-position: absolute;
-top: 0;
-left: 495px;
+.navbar ul li a:hover {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 40px;
+
+	background: -webkit-linear-gradient(top, #FA6900 0%, #F88D41 100%); /* For Safari 5.1 to 6.0 */
+    background: -moz-linear-gradient(bottom, #FA6900 0%, #F88D41 100%); /* For Firefox 3.6 to 15 */
+    background:   -o-linear-gradient(bottom, #FA6900 0%, #F88D41 100%); /* For Opera 11.1 to 12.0 */
+    background:   linear-gradient(to right bottom, #FA6900 0%, #F88D41 100%); /* Standard syntax */	
+	color: black;
 }
 
-.apropos {
-background-color: #3a3737 ;
-width: 160px ;
-height: 80px;
-display: inline-block;
-position: absolute;
-top: 0;
-left: 660px;
-}
+.navbar ul li a.active {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 60px;
 
-/* Texte des cases navbar */
-.home_txt {
-position: absolute;
-font-size: 3em ;
-text-align: center;
-top: -30px;
-left: 30px ;
-}
-
-.fonctionnement_txt {
-position: absolute;
-font-size: 1.4em ;
-text-align: center;
-top: 3px;
-left: 7px ;
-color: white;
-}
-
-.tarifs_txt {
-position: absolute;
-font-size: 3em ;
-text-align: center;
-top: -33px;
-left: 18px ;
-color: white;
-}
-
-.Contact_txt {
-position: absolute;
-font-size: 2.5em ;
-text-align: center;
-top: -22px;
-left: 16px ;
-color: white;
-}
-
-.apropos_txt {
-position: absolute;
-font-size: 3em ;
-text-align: center;
-top: -30px;
-left: 30px ;
-color: white;
-}
-
-/* Image case navbar */
-.home_img {
-position: absolute;
-top: 30px ;
-left: 16px ;
+	background : -webkit-linear-gradient(top, #FA6900 0%, #F88D41 100%); /* For Safari 5.1 to 6.0 */
+    background : -moz-linear-gradient(bottom, #FA6900 0%, #F88D41 100%); /* For Firefox 3.6 to 15 */
+    background :   -o-linear-gradient(bottom, #FA6900 0%, #F88D41 100%); /* For Opera 11.1 to 12.0 */
+    background :   linear-gradient(to right bottom, #FA6900 0%, #F88D41 100%); /* Standard syntax */
+	color: black;
 }
