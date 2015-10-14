@@ -102,7 +102,7 @@ body {
 .navbar ul li a.contact {
 	display: block;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .navbar ul li a:hover {
@@ -127,4 +127,8 @@ body {
     background :   -o-linear-gradient(bottom, #FA6900 0%, #F88D41 100%); /* For Opera 11.1 to 12.0 */
     background :   linear-gradient(to right bottom, #FA6900 0%, #F88D41 100%); /* Standard syntax */
 	color: black;
+}
+
+.navbar ul li a.active:hover {
+color: white
 }
