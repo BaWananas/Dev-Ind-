@@ -1,11 +1,11 @@
 @font-face {
 font-family: basictitlefont ; 
-src: url(../police/basictitlefont.ttf);
+src: url("../rsc/fonts/basictitlefont.ttf");
 }
 
 
 body {
-background-image: url("../image/backgroundimage.png") ;
+background-image: url("../rsc/img/background.png") ;
 }
 
 /* Styles de la navbar */
