@@ -41,7 +41,7 @@ body {
 /* Navbar */
 .navbar {
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 
 	font-family: basictitlefont;
 	text-align: center;
@@ -75,9 +75,39 @@ body {
 			transition: all 0.5s ease;
 }
 
+.navbar ul li a.home {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.navbar ul li a.who_we_are {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar ul li a.prices {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 35px;
+}
+
+.navbar ul li a.what_we_do {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.navbar ul li a.contact {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .navbar ul li a:hover {
 	display: block;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 
 	background: -webkit-linear-gradient(top, #FA6900 0%, #F88D41 100%); /* For Safari 5.1 to 6.0 */
@@ -89,7 +119,7 @@ body {
 
 .navbar ul li a.active {
 	display: block;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-bottom: 60px;
 
 	background : -webkit-linear-gradient(top, #FA6900 0%, #F88D41 100%); /* For Safari 5.1 to 6.0 */
